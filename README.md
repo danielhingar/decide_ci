@@ -3,7 +3,7 @@
 Plataforma voto electrónico educativa
 =====================================
 
-El objetivo de este proyecto es implementar una plataforma de voto
+El objetivo de este proyecto es implementar un plataforma de voto
 electrónico seguro, que cumpla una serie de garantías básicas, como la
 anonimicidad y el secreto del voto.
 
@@ -13,7 +13,7 @@ cuando sea posible. Por lo tanto se asumen algunas carencias para permitir
 que sea entendible y extensible.
 
 
-Subsistemas, apps y proyecto base
+Subsistemas, apps y proyecto base 
 ---------------------------------
 
 El proyecto se divide en [subsistemas](doc/subsistemas.md), los cuales estarán desacoplados
