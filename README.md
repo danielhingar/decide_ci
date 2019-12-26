@@ -68,7 +68,7 @@ Tras esto tendremos que crearnos nuestra base de datos con postgres:
     psql -c "create database decide owner decide"
 
 Entramos en la carpeta del proyecto (cd decide) y realizamos la primera migración para preparar la
-base de datos que utilizaremos:
+mm   smssm qqqase de datos que utilizaremos:
 
     ./manage.py migrate
 
@@ -289,4 +289,4 @@ A tener en cuenta:
 * En un servidor local, con un postgres que por defecto nos viene limitado a 100 usuarios
   concurrentes, cuando pongamos más de 100, lo normal es que empiecen a fallar muchas peticiones.
 * Si hacemos las pruebas en local, donde tenemos activado el modo debug de Django, lo normal es que
-  las peticiones tarden algo más y consigamos menos RPS (Peticiones por segundo).
+las peticiones tarden algo más y consigamos menos RPS (Peticiones por segundo).q
