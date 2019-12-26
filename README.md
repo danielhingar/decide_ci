@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/wadobo/decide.svg?branch=master)](https://travis-ci.com/wadobo/decide) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/94a85eaa0e974c71af6899ea3b0d27e0)](https://www.codacy.com/app/Wadobo/decide?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wadobo/decide&amp;utm_campaign=Badge_Grade) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/94a85eaa0e974c71af6899ea3b0d27e0)](https://www.codacy.com/app/Wadobo/decide?utm_source=github.com&utm_medium=referral&utm_content=wadobo/decide&utm_campaign=Badge_Coverage)
 
-Plataforma voto electrónico educativa
+Plataforma voto electrónico educativa v1.0
 =====================================
 
 El objetivo de este proyecto es implementar un plataforma de voto
@@ -68,7 +68,7 @@ Tras esto tendremos que crearnos nuestra base de datos con postgres:
     psql -c "create database decide owner decide"
 
 Entramos en la carpeta del proyecto (cd decide) y realizamos la primera migración para preparar la
-mm   smssm qqqase de datos que utilizaremos:
+base de datos que utilizaremos:
 
     ./manage.py migrate
 
@@ -289,4 +289,4 @@ A tener en cuenta:
 * En un servidor local, con un postgres que por defecto nos viene limitado a 100 usuarios
   concurrentes, cuando pongamos más de 100, lo normal es que empiecen a fallar muchas peticiones.
 * Si hacemos las pruebas en local, donde tenemos activado el modo debug de Django, lo normal es que
-las peticiones tarden algo más y consigamos menos RPS (Peticiones por segundo).q
+  las peticiones tarden algo más y consigamos menos RPS (Peticiones por segundo).
